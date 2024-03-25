@@ -5,10 +5,6 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.link{
-  height: 20px;
-  width: 20px;
-}
 .token{
   width: 300px;
   height: 200px;
@@ -71,4 +67,76 @@ body{
   position: absolute;
   margin-left: 1640px;
   margin-top: 460px;
+}
+@media screen and (max-width: 800px) {
+  body{
+    height: 800;
+    width: 360;
+    background-image: url("DublinMapMariaClaraMacedowebbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .token{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 250px;
+  }
+  .pottery{
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 350px;
+  }
+  .complex{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 200px;
+  }
+  .pantibar{
+    width: 180px;
+    height: 240px;
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 320px;
+  }
+  .design{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-left: 920px;
+    margin-top: 600px;
+  }
+  .museum{
+    width: 100px;
+    height: 130px;
+    position: absolute;
+    margin-left: 1170px;
+    margin-top: 580px;
+  }
+  .tlp{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-left: 1230px;
+    margin-top: 490px;
+  }
+  .dvf{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    margin-left: 1260px;
+    margin-top: 610px;
+  }
+  .door{
+    width: 100px;
+    height: 220px;
+    position: absolute;
+    margin-left: 1360px;
+    margin-top: 370px;
+  }
 }
